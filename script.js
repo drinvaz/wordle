@@ -60,9 +60,10 @@ function comparar(){
     vidas--;
     if(vidas==0){
         
-        aviso=aviso.innerHTML="<h1> PERDISTE 🥺 </h1>";
+        aviso=aviso.innerHTML="<h1> PERDISTE 🥺 la palabra era <br> </h1>" + palabra ;
         boton.style.display="none";
         boton2.style.display="block";
+
     }
 }
 boton.addEventListener("click",comparar);
