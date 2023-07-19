@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: beige;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#guess-input {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px;
+  font-size: 18px;
+  width: 250px;
+  border: 1px solid #ccc;
+}
+
+#guess-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ba0c15;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.letter {
+  border: 1px solid black;
+  padding: 3px;
+  margin: 3px;
+  min-width: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.row {
+  margin-bottom: 10px;
+  font-size:5ch;
+}
+
+.input-area {
+  margin: 30px;
+}
+ #grid {
+        text-align: center;
+        margin: 0 auto;
+      }
+#contenedor{
+    width: 800px;
+    min-height: 400px;
+    position: absolute;
+   left: 20%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(83, 194, 83);
+    border-radius: 4%;
+    overflow: hidden;
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.3);
+    
+}
+#boton{
+  display: none;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ba0c15;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+#miDiv{
+  
+    background-color: rgb(186, 226, 43);
+    border-radius: 20%;
+    width: max-content;
+    overflow: hidden;
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.3);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+#instrucciones{
+  display: none;
+  position: absolute;
+  background-color: white;
+}
